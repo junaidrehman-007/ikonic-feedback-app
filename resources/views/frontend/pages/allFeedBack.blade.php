@@ -123,7 +123,8 @@
                                             </div>
                                             <div class="comment-box" data-feedback="{{ $feedBack->id }}"
                                                 style="display: none;">
-                                                <div class="row">
+                                                <div class="row p-2" style="background-color: beige;
+                                                padding: 5px;">
                                                     <div class="col-lg-12">
                                                         {{-- <form method="POST" action="{{ route('comments.store') }}">
                                                             @csrf
@@ -141,7 +142,7 @@
                                                             <!-- SimpleMDE textarea -->
                                                             <textarea id="simplemde-editor-{{ $feedBack->id }}" name="content"></textarea>
                                                             
-                                                            <button type="submit" class="btn btn-primary mt-2">Submit Comment</button>
+                                                            <button type="submit" class="btn btn-primary mt-2 float-right">Submit Comment</button>
                                                         </form>
                                                         
                                                     </div>
