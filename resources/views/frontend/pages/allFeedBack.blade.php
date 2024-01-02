@@ -76,7 +76,7 @@
                         <div class="reviews">
                             <h3>Feedback ({{ $allFeedBack->count() }})</h3>
                             @foreach ($allFeedBack as $feedBack)
-                                <div class="review">
+                                <div class="card review p-2">
                                     <div class="row no-gutters">
                                         <div class="col-auto">
                                             <img src="{{ $feedBack->attachements }}" alt="" srcset="">
